@@ -10,8 +10,8 @@
 ## Running Project
  **1.  after colne or download source code :** <br>
 <br>
-       ```cd projectName```<br>
-       ``` composer install ```
+       ```cd projectName <br>
+         composer install ```
         
 
  **2. Create Environment File:**<br>
