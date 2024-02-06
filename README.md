@@ -34,7 +34,7 @@ php artisan migrate
 php artisan serve
 ## Highlighted Section
 
-<div style="background-color: #ffeeba; padding: 10px; border-radius: 5px;">
+<div style="background-color: #FF0000; padding: 10px; border-radius: 5px;">
 
 This is a highlighted section with a custom background color. You can add your content here.
 
