@@ -34,13 +34,12 @@ Run the database migrations to create the necessary tables in the database.<br>
   ```
 php artisan migrate
 ```
-Run Database Seeder (Optional):
+**6. Run Database Seeder (Optional):** <br>
 
 the project has seeders, you can run them to populate the database with sample data:
-bash
-
-php artisan db:seed
-**6.  Serve the Application:** <br>
+bash<br>
+```php artisan db:seed``` <br>
+**7.  Serve the Application:** <br>
 You can serve the application using Laravel's built-in development server by running the php artisan serve command. This will start a development server at http://localhost:8000.<br>
 ```
 php artisan serve
