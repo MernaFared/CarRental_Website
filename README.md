@@ -7,19 +7,38 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Running Project
+ 1-  after colne or download sorce code :
+    cd projectName
+    -->   composer install
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+ 2- Create Environment File: Copy the .env.example file to .env. This file contains configuration options for your Laravel application.
+    cp .env.example .env
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+3-  Generate Application Key: Run the php artisan key:
+        generate command to generate an application key. This key is used for encryption and should be kept secret.
+
+   php artisan key:generate
+
+4- Set Up Database: 
+Configure your database connection in the .env file. Set the DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, and DB_PASSWORD variables according to your database setup.
+
+5- Run Database Migrations: 
+Run the database migrations to create the necessary tables in the database.
+  
+php artisan migrate
+
+
+6-  Serve the Application: You can serve the application using Laravel's built-in development server by running the php artisan serve command. This will start a development server at http://localhost:8000.
+php artisan serve
+## Highlighted Section
+
+<div style="background-color: #ffeeba; padding: 10px; border-radius: 5px;">
+
+This is a highlighted section with a custom background color. You can add your content here.
+
+</div>
 
 ## Learning Laravel
 
