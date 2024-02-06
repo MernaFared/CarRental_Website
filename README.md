@@ -8,7 +8,7 @@
 </p>
 
 ## Running Project
- **1.  after colne or download sorce code :** <br>
+ **1.  after colne or download source code :** <br>
 <br>
        ```cd projectName```<br>
        ``` composer install ```
